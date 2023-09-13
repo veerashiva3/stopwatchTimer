@@ -1,1 +1,1 @@
-# stopwatchTimer
+# stopwatchTimer using JavaScript that will take the input from user and sets the timer when clicked on set.And buttons and AJAX using DOM is used in the timer code..when clicked on instruction we will see a popped slide at bottom of webpage and when clicked on arrow it will be closed
