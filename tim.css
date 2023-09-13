@@ -1,0 +1,136 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+#entire{
+
+    width: 100%;
+
+    height: 100%;
+}
+#sym{
+    float: left;
+    padding-left: 1%;
+}
+#menubar {
+    text-align: right;
+    padding-top: 10px;
+    height: 30px;
+    width: 100%;
+    color: white;
+    background-color:#01134e;
+}
+#instrs{
+    padding-left:8%;
+    background-color: rgb(102, 209, 251); 
+}
+#ins{
+    height: 20px;
+    width: fit-content;
+    background-color:#01134e ;
+    color: white;
+    margin-top: 3%;
+    margin-left: -6%;
+    border: none;
+    opacity: 0.6;
+    border-radius: 3px;
+}
+.top{
+
+    height: 180px;
+    width: 180px;
+    position: relative;
+    margin-left: 100%;
+    font-size: 5rem;
+    position: relative; 
+    margin-top: 10%;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: #01134e;
+}
+#upbox{
+    display: grid;
+    grid-template-columns:repeat(4,125px);
+    grid-template-rows: 1;
+    column-gap: 160px;
+    align-content: center;
+}
+.bot{
+    height: 50px;
+    width: 80px;
+    margin-left: 140%;
+    font-size: 1.5rem;
+    /* position: relative; */
+    margin-top: 30%;
+    border-radius: 5px;
+    align-self: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: white;
+    border: none;
+}
+#downbox{
+    
+    display: grid;
+    grid-template-columns:repeat(4,125px);
+    grid-template-rows: 1;
+    column-gap: 160px;
+}
+#back{
+    background-color: rgb(102, 209, 251);
+}
+#but{
+    margin-top: 5%;
+   padding-bottom: 3%;
+   padding-left: 40%;
+}
+#instr{
+    /* visibility: visible;*/
+    margin-top: -1.5%;
+    background-color: #01134e;
+    color: white;
+    
+}
+#set{
+    background-color: #01134e;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 25px;
+}
+#start{
+    background-color:blueviolet;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 25px;
+}
+#pause{
+    background-color:rgb(32, 32, 180);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 25px;
+}
+#reset{
+    background-color: rgb(202, 44, 44);
+    color: white;
+    border: none;
+    border-radius: 2px;
+    height: 25px;
+}
+
+#up{
+    float:right;
+    padding-right: 40px;
+}
+#ttt{
+    padding-top: -50%;
+    padding-left: 35%;
+}
+

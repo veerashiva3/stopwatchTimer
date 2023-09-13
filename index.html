@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tim.css">
+    <title>Timer-Stopwatch</title>
+    <script src="https://kit.fontawesome.com/137c7865ef.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="entire">
+    <div id="menubar">
+        <a id="sym"><i class="fa-regular fa-clock"></i>Stopwatch</a>
+       <a id="pp"><label>Home</label></a>&nbsp&nbsp
+       <a id="pp"><label>Timer</label></a>&nbsp&nbsp
+       <a id="pp"><label>Clock</label></a>&nbsp&nbsp
+       <a id="pp"><label>Calender</label></a>&nbsp
+    </div>
+    <div id="instrs">
+        <a><button onclick="ins()" id="ins"><i class="fa-solid fa-arrow-right fa-beat-fade"></i>Click here for instructions</button></a></div>
+    <div id="back">
+    <div id="upbox">
+        <input  class="top" placeholder="0 D" id="td" type="text" disabled>
+        <input  class="top" placeholder="0 H" id="th" type="text" disabled>
+        <input  class="top" placeholder="0 M" id="tm" type="text" disabled>
+        <input  class="top" placeholder="0 S" id="ts" type="text" disabled>
+    </div>
+    <div id="downbox">
+        <input class="bot" id="dd" type="number">
+        <input class="bot" id="dh" type="number">
+        <input class="bot" id="dm" type="number">
+        <input class="bot" id="ds" type="number">
+    </div>
+    <div id="but">
+        <button id="set" onclick="set()">Set Timer</button>
+        <button id="start" onclick="start()">Start/Resume</button>
+        <button id="pause" onclick="pause()">Pause</button>
+        <button id="reset" onclick="reset()">Reset</button>
+    </div></div>
+    <div id="instr">
+        <p id="up" onclick="up()"><i class="fa-solid fa-angle-up fa-beat fa-2xl"></i></p>
+        <h3><ul>Instructions</ul></h3>
+        <ul>1.Enter the value in the inputs<br>2.Press the setTimer button to set the timer<br>
+            3.Press Start/Resume to start the timer<br>
+            4.Press the timer if you want to pause<br>
+            5.Press Start/Resume to resume the timer<br>
+            6.Press the reset button to reset the timer</ul>
+    </div>
+</div>
+  <script src="./tim.js"></script>  
+</body>
+</html>
